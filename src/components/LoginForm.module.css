@@ -1,0 +1,43 @@
+html,
+body {
+  background-image: url("/queenstown.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: "Numans", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.cardStyle {
+  margin-top: 125px;
+  flex-basis: 25rem;
+  height: 22rem;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  color: white;
+}
+
+.cardTitle {
+  text-align: center;
+}
+
+.btnForm {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.loginBtn {
+  flex-basis: 5rem;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  margin-left: 4px;
+}
